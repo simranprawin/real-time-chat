@@ -5,7 +5,7 @@ interface SidebarProps {
   currentRoom: string | null;
   onlineUsers: User[];
   currentUser: string | null;
-  onSelectRoom: (room: string) => void;
+  onSelectRoom?: (room: string) => void;
   onLeave: () => void;
 }
 
